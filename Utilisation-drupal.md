@@ -21,11 +21,13 @@
 ### Ajouter la langue française dans l'interface utilisateur
 
 * Accueil > Administration > Configuration > Régionalisation et langue > Langues >
-Ajouter une langue
+**Ajouter une langue**
 * Choisir Français et ajouter la langue
-* Accueil > Administration > Configuration > Régionalisation et langue > Langues
+* Accueil > Administration > Configuration > Régionalisation et langue > 
+**Langues**
 * Mettre Français par défaut
-* Accueil  Administration  Configuration  Régionalisation et langue  Traduction de l'interface utilisateur
+* Accueil > Administration > Configuration > Régionalisation et langue > 
+**Traduction de l'interface utilisateur**
 importer
 * Aller chercher le fichier de traduction sur [Localize.drupal](https://localize.drupal.org/translate/languages/fr)
 * Choisir le fichier de la version majeur de drupal
@@ -33,7 +35,7 @@ importer
 
 ### Changer les réglages de saisie des Formats de texte et éditeurs
 Accueil > Administration > Configuration > Rédaction de contenu >
-Formats de texte et éditeurs
+**Formats de texte et éditeurs**
 
 Pour HTML simple et HTML complet, choisir l'option Configurer
 
@@ -46,7 +48,7 @@ Pour HTML simple et HTML complet, choisir l'option Configurer
 #### Remplacer le champ image dans le type de contenu *Article* par un champ *Media*
 
 * Accueil > Administration > Structure > Types de contenu > Article >
-gérer les champs
+**gérer les champs**
 * Sur le drop down du champ *Image* Sélectionner *Supprimer*
 * Valider la suppression dans la Modale
 * Cliquer sur le bouton *Créer un nouveau champ*
@@ -60,14 +62,14 @@ Sélectionner *Media* et cliquer sur *Continuer*
 * Il est possible d'enregistrer le champ sans valeur par défaut et de le modifier et l'ajouter par la suite
 ---
 * Accueil > Administration > Structure > Types de contenu > Article >
-Gérer l'affichage du formulaire
+**Gérer l'affichage du formulaire**
 * Cacher le poids des lignes (lien en haut à droite)
 * Aller chercher le champ créé
 * En *drag-and-drop* attraper le champ sur l'icone à gauche du champ et le placer en dessous de *titre* par exemple
 * Cliquer sur enregistrer
 ---
 * Accueil > Administration > Structure > Types de contenu > Article >
-Gérer l'affichage
+**Gérer l'affichage**
 * Même manipulation que pour l'affichage du formulaire
 
 ### Structurer les informations
@@ -79,27 +81,29 @@ il faut structurer les informations, en séparant ce qui sera un type de contenu
 Dans une médiathèque, les types de contenus peuvent être séparé de la façon suivante :
 
 * Ce qui se lit : Roman, magazine, Nouvelle, Bande-dessiné
-    Champs pertinents :
+    **Champs pertinents :**
     * Couverture (Media Image limité 1)
     * Résumé
-    Taxonomie(s) possible :
+    **Taxonomie(s) possible :**
     * Support (Roman, magazine, Nouvelle, Bande-dessiné)
     * Genre Littéraire
     * Auteur(s) - Autrice(s)
     * Étiquettes (permettra d'ajouter des détails comme des protagonistes, des intervenants) etc.
 * Ce qui se regarde : Film, Documentaire
+    **Champs pertinents :**
     * Affiche (Media Image limité 1)
     * Galerie média (Media Image et vidéo illimité)
     * Résumé
-    Taxonomie(s) possible :
+    **Taxonomie(s) possible :**
     * Support (Dvd, Blu-ray)
     * Genre Vidéo
     * Créateur(s) - Créatrice(s)
     * Étiquettes (permettra d'ajouter des détails comme des protagonistes, des acteurs - actrices, etc)
 * Ce qui s'écoute : Musique, livres Audio
+    **Champs pertinents :**
     * Pochette (Media Image limité 1)
     * Tracklist
-    Taxonomie(s) possible :
+    **Taxonomie(s) possible :**
     * Support (Vinyl, Cd)
     * Genre Musical
     * Artiste(s) - Groupe(s)
@@ -109,7 +113,7 @@ Dans une médiathèque, les types de contenus peuvent être séparé de la faço
 
 ##### Créer un pathauto :
 * Accueil > Administration > Configuration > Recherche et metadonnées > Alias d'URL >
-Patterns
+**Patterns**
 * *+ Add Pathauto pattern*
 * Pattern type : Terme de taxonmie
 * *Path pattern* support/[term:name]
@@ -127,7 +131,7 @@ Plutôt que de dréer un type de contenu, puis les taxonomies, puis modifier les
 ##### Les taxonomies
 
 * Accueil > Administration > Structure > Taxonomie >
-Ajouter un vocabulaire
+**Ajouter un vocabulaire**
 * Création de la taxonomie support qui sera générale aux types de contenu d'œuvre
 * Le nom de la taxonomie, la description si besoin, et on clque sur *Enregistrer*
 * On arrive sur la liste des termes, ce qui nous permet de préparer à l'avance des termes de taxonomie qui seront sûrement utilisés
