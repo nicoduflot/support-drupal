@@ -186,3 +186,22 @@ Pour pouvoir profiter des alias d'url automatique, comme pour les types de conte
 Dans le cas où les pages enfants sont des pages de livre, la pagination fonctionnera correctement car les alias d'url seront correctement associés au type de contenu *book page*, en revanche, si du contenu extérieur (autre que *book page*) est ajouté, la pagination ne fonctionnera pas car on est redirigé vers l'affichage du type de contenu de la page et non pas d'une *book page* enfant.
 
 Mais le fil d'ariane précisera, sur le contenu extéieur, les éléments *parents* liés à la hiérarchie imposée par la page principale (*page de garde*) du livre.
+
+* vue page et xml
+    * Modifier une vue existante
+        * La page d'accueil
+        * La page des résultat de terme de taxonomie
+    * Créer une vue
+        * Vu regroupant les type de contenu similaire
+* vue block
+    * Ajouter la vue bloc aux vues existante, avec un affichage différent
+* le menu
+* les thèmes
+    * modification de base du thème
+    * logo favicon
+    * module CSS editor
+    * modification simple
+    * modification avancée
+* les blocs et types de bloc 
+    * utiliser le bloc simple
+    * créer et utiliser un bloc personnalisé
