@@ -10,6 +10,8 @@ Ces variations de vues peuvent afficher les mêmes information sur les contenu o
 
 #### Modifier une vue existante
 
+##### La page d'accueil
+
 La première vue que l'on va modifier est la vue de la page d'accueil. Par défaut, elle affiche tout le contenu promu en page d'accueil et publié, sous la forme d'un liste non mise en forme sur le contenu.
 
 Le résultat est que la page d'accueil affiche chaque contenu référencé dans son entièreté, plus que d'afficher des petites section contenant les information principales et un lien pour accéder au contenu en entier dans son espace dédié.
@@ -38,7 +40,11 @@ Si l'ordre prédéfini des champs généré par l'application ne convient pas, l
 
 Si le paramétrage d'un champsne convient pas, il suffit de cliquer sur le champ et de changer sa configuration, c'est aussi là qu'on peut le retirer de l'affichage.
 
-    
+##### La page des résultats des termes de taxonomie
+
+Cette page permet d'afficher une vue des contenus correspondant au terme de taxonomie (Étiquettes, vocabulaires ajoutés par les utilisateurs).
+
+Sa modification est la même que pour la page d'accueil
 
 ---
 
@@ -50,3 +56,9 @@ Si le paramétrage d'un champsne convient pas, il suffit de cliquer sur le champ
         * Vu regroupant les type de contenu similaire
 * vue block
     * Ajouter la vue bloc aux vues existante, avec un affichage différent
+    * Créer une vue block sur les termes Étiquettes utilisés
+* Modifier un thème de base
+    * Réglages par défaut du thème Olivero
+    * Modification avec CSS Editor
+    * Ajout d'éléments au thème en utilisant le répertoire de fichier *\sites\default\files*
+
