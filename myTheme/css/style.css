@@ -1,0 +1,35 @@
+@import url('my-marker.css');
+@import url('bs-breakpoint-xxxl.css');
+
+.region{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.header-img{
+    max-height: 150px;
+    border-radius: 200px;
+    background-color: white;
+}
+
+a, a:visited{
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:focus-visible{
+    text-decoration: underline;
+    outline: unset;
+}
+
+#search-block-form{
+    text-align: right;
+}
+
+h1, .h1{
+    font-family: 'PermanentMarker';
+}
+
+.site-name.h1 a, 
+[data-bs-theme="dark"] .menu-item a,
+[data-bs-theme="dark"] .field-content a{
+    color: var(--bs-body-color);
+}

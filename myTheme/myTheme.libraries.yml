@@ -4,7 +4,7 @@ general:
     theme:
       # Il est possible de préciser à quel type d'affichage, screen ou print par exemple, sera utilisé la bibliothèque nommé
       css/bootstrap.css: {media: screen}
-      css/bootstrap-icon.css: {}
+      css/bootstrap-icons.css: {}
       css/style.css: {media: screen}
       css/print.css: {media: print}
   js:

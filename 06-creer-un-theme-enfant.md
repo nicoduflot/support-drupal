@@ -268,7 +268,7 @@ Ensuite on fait une copie de menu.html.twig qu'on renomme
       </li>
     {% endfor %}
       </ul>
-		{% endif %}
+  {% endif %}
 {% endmacro %}
 
 ```

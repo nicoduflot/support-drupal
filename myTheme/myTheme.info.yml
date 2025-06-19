@@ -1,7 +1,7 @@
 name: myTheme
 type: theme
 description: Thème enfant de starterkit_theme
-core_version_requirement: ^10 || ^11
+core_version_requirement: ^11
 base theme: starterkit_theme
 logo: images/nicolas-duflot-avatar.svg
 libraries:
@@ -11,10 +11,10 @@ regions:
   primary_menu: 'Primary menu'
   secondary_menu: 'Secondary menu'
   highlighted: 'Highlighted'
-  custom_region: 'Custom region'
   help: 'Help'
-  breadcrumb: 'Breadcrumb'
-  content: 'Content'
   sidebar_first: 'Left sidebar'
+  breadcrumb: 'Breadcrumb'
+  custom_region: 'Custom region'
+  content: 'Content'
   sidebar_second: 'Right sidebar'
   footer: 'Footer'
